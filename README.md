@@ -9,9 +9,9 @@ The goal of the analysis is to compare the spending and earning capabilities of 
 
 The data includes information on the following:
 
-Income levels of Filipino families
-Industry focus of each region
-Demographic information (e.g. age, gender, education level)
+1. Income levels of Filipino families
+2. Industry focus of each region
+3. Demographic information (e.g. age, gender, education level)
 
 **Analysis**
 
