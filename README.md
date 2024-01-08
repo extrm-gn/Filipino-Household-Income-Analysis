@@ -1,18 +1,48 @@
-# Filipino-Household-Income-Analysis
-This repository contains data and analysis on the income and other factors affecting the economics of Filipino families. The data was received from Kaggle.
+# Philippines Family Income and Expenditure Analysis
 
-**Goal**
+Welcome to the analysis of family income and expenditure in the Philippines! This Jupyter Notebook explores the economic landscape of the country, delving into the diverse spending and earning patterns across different regions.
 
-The goal of the analysis is to compare the spending and earning capabilities of each region in the Philippines and to describe and analyze which industry is focused on by each region.
+## General Information 🌏
 
-**Data**
+The Philippines has a rich history, having been colonized by various powers and overcoming challenges like World War II and a period of dictatorship. This analysis aims to uncover insights into how Filipinos spend, earn, and the demographics and social classes prevalent in the country.
 
-The data includes information on the following:
+## Objectives 📊
 
-1. Income levels of Filipino families
-2. Industry focus of each region
-3. Demographic information (e.g. age, gender, education level)
+- **Clean the Dataset:** Remove outliers that may skew our findings.
+- **Analyze Industries by Region:** Describe and analyze which industry dominates in each region.
+- **Compare Regional Spending and Earning:** Explore the spending and earning capabilities of different regions.
+- **Family Dynamics:** Investigate how family structure correlates with higher earnings.
 
-**Analysis**
+## Libraries and Data Setup 🛠️
 
-Data visualization using matplotlib and seaborn was done to better understand the data and draw insights. The analysis focuses on identifying patterns and trends in the data, as well as comparing the income and industry focus of different regions.
+This analysis utilizes Python libraries such as NumPy, Pandas, Matplotlib, and Seaborn for efficient data handling and visualization. The dataset used is the "Family Income and Expenditure" dataset.
+
+## Data Cleaning 🧹
+
+An initial examination of the dataset reveals its dimensions: 41,544 rows and 60 columns. Outliers are identified and removed to ensure the robustness of subsequent analyses.
+
+## Data Exploration 🚀
+
+### Regional Disparities
+
+- **Income Disparities:** Regions like NCR, IVA, and III emerge as the wealthiest, with ARMM, V, IX, VIII, XII facing economic challenges.
+
+### Agricultural Analysis
+
+- **Agricultural vs. Non-Agricultural Regions:** Regions IVA and NCR have the highest non-agricultural households, while ARMM is predominantly agricultural.
+
+### Family Expenditure Analysis
+
+- **Rice Expenditure:** Agricultural regions spend significantly more on rice.
+- **Food Expenditure:** High-income regions (NCR, IVA, III) spend more on food.
+- **Leisure Expenses:** Analysis of restaurant, hotel, alcohol, tobacco, and clothing expenses reveals spending patterns.
+
+## Key Findings 🔍
+
+- High-income regions spend more on food, housing, and leisure activities.
+- Agricultural regions allocate a substantial portion of their income to rice.
+- ARMM faces economic challenges, spending a significant percentage of income on food.
+
+## Conclusion 🎉
+
+This analysis sheds light on the diverse economic landscape of the Philippines, uncovering regional variations in spending and earning patterns. Understanding these trends can inform policymakers and stakeholders for more targeted interventions.
